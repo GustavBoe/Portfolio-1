@@ -78,6 +78,7 @@ main {
   width: 20rem;
   height: 30rem;
   align-items: center;
+  justify-content: space-evenly;
 }
 .container img {
   max-width: 15rem;

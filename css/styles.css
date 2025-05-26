@@ -1,0 +1,99 @@
+/*Fonts*/
+.concert-one-regular {
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.brygada-1918-regular {
+  font-family: "Brygada 1918", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.jockey-one-regular {
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.alef-regular {
+  font-family: "Alef", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alef-bold {
+  font-family: "Alef", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.rubik-doodle-shadow-regular {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.rubik-mono-one-regular {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.tuffy-regular {
+  font-family: "Tuffy", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*Colours*/
+.white-text {
+  color: white;
+}
+/*Page*/
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #63b1e6;
+  height: 10rem;
+  width: 100%;
+}
+main {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5rem;
+}
+/*Containers*/
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 30rem;
+  align-items: center;
+}
+.container img {
+  max-width: 15rem;
+}
+.container a {
+  text-decoration: none;
+}
+.ccp-container {
+  background-color: rgba(10, 54, 65, 1);
+  border-radius: 2rem 2rem 0rem 0rem;
+}
+.sp1-container {
+  background-color: rgba(63, 167, 82, 1);
+}
+
+.pe1-container {
+  background-color: rgba(56, 128, 110, 1);
+  border-radius: 0rem 0rem 2rem 2rem;
+}

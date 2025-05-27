@@ -129,6 +129,8 @@ main {
 }
 
 /** Media queries **/
+
+/*For phone*/
 @media (width < 875px) {
   #ccp-text-container {
     display: block;
@@ -140,7 +142,7 @@ main {
     display: block;
   }
 }
-
+/*For desktop*/
 @media (width > 875px) {
   main {
     flex-direction: row;

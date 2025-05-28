@@ -1,3 +1,6 @@
+const body = document.getElementsByTagName("body");
+const headerHead = document.getElementById("header-head");
+const footerHead = document.getElementById("footer-head");
 const ccpContainer = document.getElementById("ccp-container");
 const ccpText = document.getElementById("ccp-text-container");
 const sp1Container = document.getElementById("sp1-container");
@@ -15,25 +18,31 @@ ccpContainer.addEventListener("mouseover", () => {
   ccpText.style.display = "flex";
   ccpText.style.flexDirection = "column";
   ccpText.style.justifyContent = "space-evenly";
+  document.body.style.backgroundColor = "rgba(10, 54, 65, 1)";
 });
 ccpContainer.addEventListener("mouseleave", () => {
   ccpText.style.display = "none";
+  document.body.style.backgroundColor = "#63b1e6";
 });
 sp1Container.addEventListener("mouseover", () => {
   sp1Text.style.display = "flex";
   sp1Text.style.flexDirection = "column";
   sp1Text.style.justifyContent = "space-evenly";
+  document.body.style.backgroundColor = "rgba(63, 167, 82, 1)";
 });
 sp1Container.addEventListener("mouseleave", () => {
   sp1Text.style.display = "none";
+  document.body.style.backgroundColor = "#63b1e6";
 });
 pe1Container.addEventListener("mouseover", () => {
   pe1Text.style.display = "flex";
   pe1Text.style.flexDirection = "column";
   pe1Text.style.justifyContent = "space-evenly";
+  document.body.style.backgroundColor = "rgba(56, 128, 110, 1)";
 });
 pe1Container.addEventListener("mouseleave", () => {
   pe1Text.style.display = "none";
+  document.body.style.backgroundColor = "#63b1e6";
 });
 //Code from https://www.google.com/search?q=new+tab+using+javascript&sca_esv=07554fca3e6d53b6&sxsrf=AE3TifPszpmvQEG1Pz8B8ZXZxoJnhUZO3g%3A1748343941041&ei=hZw1aIOhAp7NwPAPsO6b0Q0&oq=new+tab+using+javq&gs_lp=Egxnd3Mtd2l6LXNlcnAiEm5ldyB0YWIgdXNpbmcgamF2cSoCCAAyBhAAGA0YHjIFEAAY7wUyCBAAGIAEGKIEMgUQABjvBTIFEAAY7wVIxxpQowRY0BBwAXgBkAEAmAGYAaAB5weqAQMwLji4AQPIAQD4AQGYAgmgAp4IwgIKEAAYsAMY1gQYR8ICBBAjGCfCAgYQABgWGB6YAwCIBgGQBgiSBwMxLjigB9s6sgcDMC44uAeYCA&sclient=gws-wiz-serp
 rainyLink.addEventListener("click", () => {

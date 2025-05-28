@@ -51,11 +51,12 @@
   color: white;
 }
 .green-text {
-  color: rgba(56, 128, 110, 1);
+  color: rgba(63, 167, 82, 1);
 }
 /*Page*/
 body {
   margin: 0;
+  background-color: #63b1e6;
 }
 header,
 footer {
@@ -64,7 +65,7 @@ footer {
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: #63b1e6;
+  background-color: rgba(255, 255, 255, 0);
   height: 15.5rem;
   width: 100%;
 }
@@ -118,9 +119,12 @@ main {
 .ccp-container {
   background-color: rgba(10, 54, 65, 1);
 }
-/**.sp1-container {
-}**/
-.ccp-teaser {
+.sp1-container {
+  background-color: rgba(255, 255, 255, 1);
+}
+.ccp-teaser,
+.sp1-teaser,
+.pe1-teaser {
   text-align: left;
 }
 

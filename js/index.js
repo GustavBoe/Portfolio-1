@@ -8,21 +8,29 @@ const rainyLink = document.getElementById("rainy-link");
 const rainyGit = document.getElementById("rainy-git");
 const communityLink = document.getElementById("community-link");
 const communityGit = document.getElementById("community-git");
+const babelLink = document.getElementById("babel-link");
+const babelGit = document.getElementById("babel-git");
 
 ccpContainer.addEventListener("mouseover", () => {
-  ccpText.style.display = "block";
+  ccpText.style.display = "flex";
+  ccpText.style.flexDirection = "column";
+  ccpText.style.justifyContent = "space-evenly";
 });
 ccpContainer.addEventListener("mouseleave", () => {
   ccpText.style.display = "none";
 });
 sp1Container.addEventListener("mouseover", () => {
-  sp1Text.style.display = "block";
+  sp1Text.style.display = "flex";
+  sp1Text.style.flexDirection = "column";
+  sp1Text.style.justifyContent = "space-evenly";
 });
 sp1Container.addEventListener("mouseleave", () => {
   sp1Text.style.display = "none";
 });
 pe1Container.addEventListener("mouseover", () => {
-  pe1Text.style.display = "block";
+  pe1Text.style.display = "flex";
+  pe1Text.style.flexDirection = "column";
+  pe1Text.style.justifyContent = "space-evenly";
 });
 pe1Container.addEventListener("mouseleave", () => {
   pe1Text.style.display = "none";
@@ -46,4 +54,10 @@ communityGit.addEventListener("click", () => {
     "https://github.com/GustavBoe/Semester-project-autumn24",
     "_blank"
   );
+});
+babelLink.addEventListener("click", () => {
+  window.open("https://glittery-toffee-87fbc4.netlify.app/", "_blank");
+});
+babelGit.addEventListener("click", () => {
+  window.open("https://github.com/NoroffFEU/FED1-PE1-GustavBoe", "_blank");
 });

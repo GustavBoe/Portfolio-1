@@ -120,6 +120,9 @@ main {
 }
 /**.sp1-container {
 }**/
+.ccp-teaser {
+  text-align: left;
+}
 
 .pe1-container {
   background-color: rgba(56, 128, 110, 1);
@@ -128,20 +131,20 @@ main {
   font-size: 1.5em;
 }
 
+/*Buttons*/
+button {
+  background: none;
+  border: none;
+  font-size: 1em;
+}
+button:hover {
+  font-weight: 900;
+  text-decoration: underline;
+}
 /** Media queries **/
 
 /*For phone*/
-@media (width < 875px) {
-  #ccp-text-container {
-    display: block;
-  }
-  #sp1-text-container {
-    display: block;
-  }
-  #pe1-text-container {
-    display: block;
-  }
-}
+
 /*For desktop*/
 @media (width > 875px) {
   main {
@@ -149,6 +152,12 @@ main {
   }
   .container {
     min-height: 37rem;
+    text-align: center;
+  }
+  .link-container {
+    width: 15rem;
+    text-align: center;
+    align-self: center;
   }
   #ccp-text-container {
     display: none;

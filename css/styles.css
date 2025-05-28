@@ -141,6 +141,10 @@ button:hover {
   font-weight: 900;
   text-decoration: underline;
 }
+button:focus {
+  font-weight: 900;
+  text-decoration: underline;
+}
 /** Media queries **/
 
 /*For phone*/

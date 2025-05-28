@@ -4,22 +4,26 @@
   font-weight: 400;
   font-style: normal;
 }
+
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 .brygada-1918-regular {
   font-family: "Brygada 1918", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+
 .jockey-one-regular {
   font-family: "Jockey One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 .alef-regular {
   font-family: "Alef", sans-serif;
   font-weight: 400;
@@ -46,6 +50,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 /*Colours*/
 .white-text {
   color: white;
@@ -58,6 +63,7 @@ body {
   margin: 0;
   background-color: #63b1e6;
 }
+
 header,
 footer {
   display: flex;
@@ -69,13 +75,16 @@ footer {
   height: 15.5rem;
   width: 100%;
 }
+
 header h1 {
   font-size: 2.5em;
 }
+
 .outline img {
   max-width: 7rem;
   align-self: baseline;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -92,23 +101,29 @@ main {
   align-items: center;
   justify-content: space-evenly;
 }
+
 .container h1 {
   font-size: 2em;
 }
+
 .container img {
   width: 15rem;
   height: auto;
 }
+
 .container a {
   text-decoration: none;
 }
+
 .container a:hover {
   text-decoration: underline;
   font-weight: 1000;
 }
+
 .container p {
   width: 15rem;
 }
+
 .link-container {
   margin-top: 4rem;
   margin-bottom: 2rem;
@@ -116,12 +131,15 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
 .ccp-container {
   background-color: rgba(10, 54, 65, 1);
 }
+
 .sp1-container {
   background-color: rgba(255, 255, 255, 1);
 }
+
 .ccp-teaser,
 .sp1-teaser,
 .pe1-teaser {
@@ -131,6 +149,7 @@ main {
 .pe1-container {
   background-color: rgba(56, 128, 110, 1);
 }
+
 .pe1-container h1 {
   font-size: 1.5em;
 }
@@ -141,14 +160,17 @@ button {
   border: none;
   font-size: 1em;
 }
+
 button:hover {
   font-weight: 900;
   text-decoration: underline;
 }
+
 button:focus {
   font-weight: 900;
   text-decoration: underline;
 }
+
 /** Media queries **/
 
 /*For phone*/
